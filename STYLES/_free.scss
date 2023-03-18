@@ -1,0 +1,326 @@
+@import "variables";
+
+
+
+
+
+
+.free{
+    .container{
+        p{
+            margin-top: 120px;
+        }
+        .your{
+            gap: 40px;
+          display: flex;
+          justify-content: space-between;
+       
+        .your-item{
+            border-radius: 10px;
+            background-color: $aqua;
+            h3{
+                padding: 12px 13px ;
+                 font-size: 58px;
+                // line-height: 64px;
+            }
+            p{
+                margin-top:40px;
+                padding-left: 10px;
+            }
+            button{
+                margin-top: 20px;
+                margin-left: 200px;
+                margin-bottom: 16px;
+                padding: 10px;
+                background: #AEE8FB;
+                border: 1px solid #000000;
+                border-radius: 10px;
+            }
+        }
+
+
+        .your-item1{
+            color: $pink;
+            border-radius: 10px;
+            background-color: $light-50;
+            h3{
+                padding: 12px 13px ;
+                 font-size: 58px;
+                // line-height: 64px;
+            }
+            p{
+                margin-top:40px;
+                padding: 10px;
+            }
+            button{
+                margin-left: 200px;
+                margin-bottom: 16px;
+                padding: 10px;
+                color: $pink;
+                background: white;
+                border: 1px solid $pink;
+                border-radius: 10px;
+            }
+        }
+
+
+        .your-item2{
+            border-radius: 10px;
+            color: white;
+            background-color: #FF3B41;
+            h3{
+                padding: 12px 13px ;
+                 font-size: 58px;
+                // line-height: 64px;
+            }
+            p{
+                margin-top:40px;
+                padding: 10px;
+            }
+            button{
+                margin-left: 200px;
+                margin-bottom: 16px;
+                padding: 10px;
+                background: white;
+                border: 1px solid white;
+                border-radius: 10px;
+                color: $pink;
+            }
+        }
+    }
+
+
+    }
+}
+
+
+
+@media only screen and (max-width:1024px){
+    .free{
+        .container{
+            .your{
+                display: grid;
+                grid-template-columns: auto;
+                max-width: 360px;
+            .your-item{
+                border-radius: 10px;
+                background-color: $aqua;
+                h3{
+                    padding: 12px 13px ;
+                     font-size: 38px;
+                }
+                p{
+                    margin-top:40px;
+                    padding-left: 10px;
+                }
+                button{
+                    margin-top: 20px;
+                    margin-left: 200px;
+                    margin-bottom: 16px;
+                    padding: 10px;
+                }
+            }
+    
+    
+            .your-item1{
+                h3{
+                    padding: 12px 13px ;
+                     font-size: 38px;
+                }
+                p{
+                    margin-top:40px;
+                    padding: 10px;
+                }
+                button{
+                    margin-left: 200px;
+                    margin-bottom: 16px;
+                    padding: 10px;
+                    color: $pink;
+                    background: white;
+                    border: 1px solid $pink;
+                    border-radius: 10px;
+                }
+            }
+    
+    
+            .your-item2{
+                border-radius: 10px;
+                color: white;
+                background-color: #FF3B41;
+                h3{
+                    padding: 12px 13px ;
+                     font-size: 38px;
+                }
+                p{
+                    margin-top:40px;
+                    padding: 10px;
+                }
+                button{
+                    margin-left: 200px;
+                    margin-bottom: 16px;
+                    padding: 10px;
+                    background: white;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    color: $pink;
+                }
+            }
+        }
+    
+    
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .free{
+        .container{
+            .your{
+                display: grid;
+                grid-template-columns: auto;
+                max-width: 360px;
+            .your-item{
+                border-radius: 10px;
+                background-color: $aqua;
+                h3{
+                    padding: 12px 13px ;
+                     font-size: 38px;
+                }
+                p{
+                    margin-top:40px;
+                    padding-left: 10px;
+                }
+                button{
+                    margin-top: 20px;
+                    margin-left: 200px;
+                    margin-bottom: 16px;
+                    padding: 10px;
+                }
+            }
+    
+    
+            .your-item1{
+                h3{
+                    padding: 12px 13px ;
+                     font-size: 38px;
+                }
+                p{
+                    margin-top:40px;
+                    padding: 10px;
+                }
+                button{
+                    margin-left: 200px;
+                    margin-bottom: 16px;
+                    padding: 10px;
+                    color: $pink;
+                    background: white;
+                    border: 1px solid $pink;
+                    border-radius: 10px;
+                }
+            }
+    
+    
+            .your-item2{
+                border-radius: 10px;
+                color: white;
+                background-color: #FF3B41;
+                h3{
+                    padding: 12px 13px ;
+                     font-size: 38px;
+                }
+                p{
+                    margin-top:40px;
+                    padding: 10px;
+                }
+                button{
+                    margin-left: 200px;
+                    margin-bottom: 16px;
+                    padding: 10px;
+                    background: white;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    color: $pink;
+                }
+            }
+        }
+    
+    
+        }
+    }
+}
+@media only screen and (max-width:480px){
+    .free{
+
+        .container{
+            .your{
+                display: grid;
+                grid-template-columns: auto;
+                max-width: 360px;
+            .your-item{
+                border-radius: 10px;
+                background-color: $aqua;
+                h3{
+                    padding: 12px 13px ;
+                     font-size: 28px;
+                }
+                p{
+                    margin-top:40px;
+                    padding-left: 10px;
+                }
+                button{
+                    margin-top: 20px;
+                    margin-left: 200px;
+                    margin-bottom: 16px;
+                    padding: 10px;
+                }
+            }
+    
+    
+            .your-item1{
+                h3{
+                    padding: 12px 13px ;
+                     font-size: 28px;
+                }
+                p{
+                    margin-top:40px;
+                    padding: 10px;
+                }
+                button{
+                    margin-left: 200px;
+                    margin-bottom: 16px;
+                    padding: 10px;
+                    color: $pink;
+                    background: white;
+                    border: 1px solid $pink;
+                    border-radius: 10px;
+                }
+            }
+    
+    
+            .your-item2{
+                border-radius: 10px;
+                color: white;
+                background-color: #FF3B41;
+                h3{
+                    padding: 12px 13px ;
+                     font-size: 28px;
+                }
+                p{
+                    margin-top:40px;
+                    padding: 10px;
+                }
+                button{
+                    margin-left: 200px;
+                    margin-bottom: 16px;
+                    padding: 10px;
+                    background: white;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    color: $pink;
+                }
+            }
+        }
+    
+    
+        }
+    }
+}

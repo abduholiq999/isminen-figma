@@ -1,0 +1,96 @@
+@import 'variables';
+
+
+
+
+
+.ready{
+    .container{
+        .readyy{
+            text-align: center;
+            h2{
+                margin: 0 auto;
+                font-size: 60px;
+                line-height: 88px;
+                max-width: 714px;
+
+            }
+            h3{
+                margin: 0 auto;
+                font-size: 44px;
+                line-height: 53px;
+                max-width: 897px;
+                margin-bottom: 46px;
+            }
+            button{
+                background: #FFFFFF;
+                border: 1px solid #000000;
+                border-radius: 10px;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:1024px){
+    .ready{
+        .container{
+            .readyy{
+                h2{
+                    font-size: 50px;
+                    line-height: 68px;
+                    max-width: 714px;
+    
+                }
+                h3{
+                    font-size: 34px;
+                    line-height: 43px;
+                    max-width: 897px;
+                    margin-bottom: 46px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .ready{
+        .container{
+            .readyy{
+                h2{
+                    font-size: 40px;
+                    line-height: 58px;
+                    max-width: 714px;
+    
+                }
+                h3{
+                    font-size: 24px;
+                    line-height: 33px;
+                    max-width: 897px;
+                    margin-bottom: 46px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:480px){
+    .ready{
+        .container{
+            .readyy{
+                h2{
+                    font-size: 20px;
+                    line-height: 38px;
+                    max-width: 714px;
+    
+                }
+                h3{
+                    font-size: 24px;
+                    line-height: 33px;
+                    max-width: 897px;
+                    margin-bottom: 46px;
+                }
+            }
+        }
+    }
+}

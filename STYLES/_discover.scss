@@ -1,0 +1,504 @@
+@import "variables";
+
+
+
+.discover{
+    .container{
+        .discover-box{
+            p{
+                margin-top: 120px;
+                max-width: 895px;
+                text-align: center;
+                margin-left: 100px;
+                font-size: 44px;
+                line-height: 53px;
+            }
+            span{
+                padding: 10px;
+                margin-top: 44px;
+                margin-left: 500px;
+                background: #FFFFFF;
+                border: 1px solid #000000;
+                border-radius: 10px;
+                
+            }
+        }
+       
+    }
+    .discover-item{
+        background-color: $light-50;
+        p{
+            margin: 0 auto;
+            font-size: 80px;
+            line-height: 88px;
+            max-width: 1079px;
+            margin-left: 60px;
+            margin-top: 120px;
+            // margin-bottom: 120px;
+        }
+    }
+
+
+    .container{
+        p{
+            margin-bottom: 35px;
+            margin-top: 120px;
+        }
+        .discover-center{
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            .discover-child1{
+                color: #000000;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                max-width: 360px;
+                height: auto;
+                background-color: $aqua;
+                border-radius: 10px;
+                img{
+                    padding: 20px;
+                }
+    
+    
+                p{
+                    padding: 10px;
+                    margin-top: 19px;
+                }
+    
+    
+    
+                button{
+                    margin-bottom: 20px;
+                    margin-top: 15px;
+                    background: $aqua;
+                    border: 1px solid #000000;
+                    border-radius: 10px;
+                    padding: 13px;
+                }
+    
+                h5{
+                    margin-top: 20px;
+                }
+    
+            }
+          
+            .discover-child2{
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                background-color: $light-50;
+                max-width: 360px;
+                height: auto;
+                border-radius: 10px;
+                img{
+                    padding: 20px;
+                }
+    
+                h5{
+                    margin-top: 20px;
+                }
+    
+                button{
+                    margin-bottom: 20px;
+                    margin-top: 35px;
+                    background: #F3E9E2;
+                    border: 1px solid #000000;
+                    border-radius: 10px;
+                    padding: 13px;
+                }
+    
+                p{
+                    padding: 10px;
+                    margin-top: 19px;
+                }
+            }
+              .discover-child{
+                color: #000000;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                max-width: 360px;
+                height: auto;
+                background-color: $aqua;
+                border-radius: 10px;
+                img{
+                    padding: 20px;
+                }
+    
+    
+                p{
+                    padding: 10px;
+                    margin-top: 19px;
+                }
+    
+    
+    
+                button{
+                    margin-bottom: 20px;
+                    margin-top: 35px;
+                    background: $aqua;
+                    border: 1px solid #000000;
+                    border-radius: 10px;
+                    padding: 13px;
+                }
+    
+                h5{
+                    margin-top: 20px;
+                }
+    
+            }
+        }
+    }
+
+
+    .discover2{
+        margin-top: 120px;
+        background-color: $light-50;
+        display: flex;
+        .discover-right{
+            p{
+                margin: 155px 88px 155px 111px;
+                height: 264px;
+                max-width: 371px;
+                font-size: 44px;
+                line-height: 53px;
+                color: #000000;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:1024px) {
+    .discover{
+        .container{
+            .discover-box{
+                p{
+                    max-width: 895px;
+                    font-size: 35px;
+                    line-height: 40px;
+                }
+            }
+           
+        }
+        .discover-item{
+            p{
+                font-size: 65px;
+                line-height: 68px;
+                max-width: 1079px;
+            }
+        }
+    
+    
+        .container{
+            .discover-center{
+                display: grid;
+                grid-template-columns: auto;
+                text-align: center;
+                justify-content: center;
+                .discover-child1{
+                    font-size: 16px;
+                    line-height: 20px;
+                    max-width: 360px;
+                    height: auto;
+                }
+              
+                .discover-child2{
+                    font-size: 16px;
+                    line-height: 20px;
+                    max-width: 360px;
+                    height: auto;
+                }
+                  .discover-child{
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: center;
+                    max-width: 360px;
+                    height: auto;
+        
+                }
+            }
+        }
+    
+    
+        .discover2{
+            background-color: transparent;
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center ;
+            .discover-right{
+                max-width: 571px;
+                background-color: $light-50;
+                p{
+                    margin: 155px 88px 155px 111px;
+                    height: 264px;
+                    max-width: 371px;
+                    font-size: 44px;
+                    line-height: 53px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width:768px) {
+    .discover{
+    .container{
+        .discover-box{
+            p{
+                max-width: 895px;
+                font-size: 34px;
+                line-height: 43px;
+            }
+            span{
+                padding: 10px;
+                margin-top: 44px;
+                margin-left: 250px;
+                background: #FFFFFF;
+                border: 1px solid #000000;
+                border-radius: 10px;
+                
+            }
+        }
+       
+    }
+    .discover-item{
+        margin-top: 100px;
+        background-color: $light-50;
+        p{
+            margin: 0 auto;
+            font-size: 40px;
+            line-height: 58px;
+            max-width: 1079px;
+        }
+    }
+
+
+    .container{
+        .discover-center{
+            display: grid;
+            grid-template-columns: auto;
+            .discover-child1{
+                font-size: 16px;
+                line-height: 20px;
+                max-width: 360px;
+                height: auto;
+    
+    
+                button{
+                    margin-bottom: 20px;
+                    margin-top: 15px;
+                    padding: 13px;
+                }
+    
+                h5{
+                    margin-top: 20px;
+                }
+    
+            }
+          
+            .discover-child2{
+                font-size: 16px;
+                line-height: 20px;
+                max-width: 360px;
+                height: auto;
+                img{
+                    padding: 20px;
+                }
+    
+                h5{
+                    margin-top: 20px;
+                }
+    
+                button{
+                    margin-bottom: 20px;
+                    margin-top: 35px;
+                    padding: 13px;
+                }
+    
+                p{
+                    padding: 10px;
+                    margin-top: 19px;
+                }
+            }
+              .discover-child{
+                font-size: 16px;
+                line-height: 20px;
+                max-width: 360px;
+                height: auto;
+                img{
+                    padding: 20px;
+                }
+    
+    
+                p{
+                    padding: 10px;
+                    margin-top: 19px;
+                }
+    
+    
+    
+                button{
+                    margin-bottom: 20px;
+                    margin-top: 35px;
+                    padding: 13px;
+                }
+    
+                h5{
+                    margin-top: 20px;
+                }
+    
+            }
+        }
+    }
+
+
+    .discover2{
+        background-color: transparent;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center ;
+        .discover-right{
+            p{
+                margin: 155px 88px 155px 111px;
+                height: 264px;
+                max-width: 371px;
+                font-size: 44px;
+                line-height: 53px;
+            }
+        }
+    }
+}
+}
+@media only screen and (max-width:480px) {
+    .discover{
+        .container{
+            .discover-box{
+                p{
+                    max-width: 895px;
+                    font-size: 24px;
+                    line-height: 33px;
+                }
+                span{
+                    padding: 10px;
+                    margin-top: 44px;
+                    margin-left: 200px;
+                    
+                }
+            }
+           
+        }
+        .discover-item{
+            margin-top: 100px;
+            background-color: $light-50;
+            p{
+                margin: 0 auto;
+                font-size: 25px;
+                line-height: 35px;
+                max-width: 1079px;
+            }
+        }
+    
+    
+        .container{
+            .discover-center{
+                text-align: center;
+                display: grid;
+                grid-template-columns: auto;
+                .discover-child1{
+                    font-size: 16px;
+                    line-height: 20px;
+                    max-width: 360px;
+                    height: auto;
+        
+        
+                    button{
+                        margin-bottom: 20px;
+                        margin-top: 15px;
+                        padding: 13px;
+                    }
+        
+                    h5{
+                        margin-top: 20px;
+                    }
+        
+                }
+              
+                .discover-child2{
+                    font-size: 16px;
+                    line-height: 20px;
+                    max-width: 360px;
+                    height: auto;
+                    img{
+                        padding: 20px;
+                    }
+        
+                    h5{
+                        margin-top: 20px;
+                    }
+        
+                    button{
+                        margin-bottom: 20px;
+                        margin-top: 35px;
+                        padding: 13px;
+                    }
+        
+                    p{
+                        padding: 10px;
+                        margin-top: 19px;
+                    }
+                }
+                  .discover-child{
+                    font-size: 16px;
+                    line-height: 20px;
+                    max-width: 360px;
+                    height: auto;
+                    img{
+                        padding: 20px;
+                    }
+        
+        
+                    p{
+                        padding: 10px;
+                        margin-top: 19px;
+                    }
+        
+        
+        
+                    button{
+                        margin-bottom: 20px;
+                        margin-top: 35px;
+                        padding: 13px;
+                    }
+        
+                    h5{
+                        margin-top: 20px;
+                    }
+        
+                }
+            }
+        }
+    
+    
+        .discover2{
+            background-color: transparent;
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center ;
+            .discover-right{
+                p{
+                    margin: 155px 88px 155px 111px;
+                    height: 264px;
+                    max-width: 371px;
+                    font-size: 44px;
+                    line-height: 53px;
+                }
+            }
+        }
+    }
+    
+}

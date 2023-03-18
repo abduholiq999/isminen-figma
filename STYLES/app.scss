@@ -1,0 +1,172 @@
+@import "variables";
+@import "inbox";
+@import "discover";
+@import "free";
+@import "job";
+@import "during";
+@import "ready";
+
+
+
+
+body{
+    background-color: $light;
+}
+
+
+*{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+// defaut styles
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+}
+
+
+
+header{
+        .reset{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .reset-box{
+             .navbar-item{
+                a{
+                    font-size: 15px;
+
+                }
+             }  
+            }
+        }
+      
+        
+
+.buy{
+    background: url(../IMAGES/IMAGE.png) no-repeat center center / cover;
+    height:800px;
+    .buy-item{
+       padding-top: 500px;
+       h1{
+        font-size: 122px;
+        color: $aqua;
+        margin-left: 60px;
+       }
+    }
+}
+}
+
+
+
+
+@media only  screen and (max-width:1024px){
+    header{
+.buy{
+    background: url(../IMAGES/IMAGE.png) no-repeat center center / cover;
+    height:800px;
+    .buy-item{
+       padding-top: 500px;
+       h1{
+        font-size: 100px;
+        color: $aqua;
+        margin-left: 60px;
+       }
+    }
+}
+}
+
+}
+@media only  screen and (max-width:768px){
+    header{    
+        
+
+.buy{
+    background: url(../IMAGES/IMAGE.png) no-repeat center center / cover;
+    height:800px;
+    .buy-item{
+       padding-top: 500px;
+       h1{
+        font-size: 60px;
+        color: $aqua;
+        margin-left: 60px;
+       }
+    }
+}
+}
+    
+}
+@media only  screen and (max-width:480px){
+    
+header{
+    .reset{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .reset-box{
+         .navbar-item{
+            text-align: end;
+            a{
+                font-size: 15px;
+
+            }
+         }  
+        }
+    }
+  
+    
+
+.buy{
+background: url(../IMAGES/IMAGE.png) no-repeat center center / cover;
+height:800px;
+.buy-item{
+   padding-top: 500px;
+   h1{
+    font-size: 45px;
+    color: $aqua;
+    margin-left: 60px;
+   }
+}
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
